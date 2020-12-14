@@ -372,7 +372,7 @@ li {
 }
 
 .left img {
-  height: 40rem;
+  height: 50rem;
   max-width: 35rem;
   object-fit: cover;
 }
@@ -678,22 +678,22 @@ a.btn:active {
   outline: none;
 }*/
 
-.form .input_field {
+.wrapper .input_field {
   margin-bottom:10px;
 }
-.form .input_field input[type="text"],
-.form textarea{
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
   width:100%;
   border:1px solid #ccc;
   padding:10px;
 }
 
-.form textarea{
+.wrapper textarea{
   height:80px;
   resize:none;
 }
 
-.form .btn input[type="submit"]{
+.wrapper .btn input[type="submit"]{
   border:0;
   margin-top: 15px;
   padding:10px;
@@ -707,7 +707,7 @@ a.btn:active {
   cursor: pointer;
 }
 
-#error_message{
+.wrapper #error_message{
   margin-bottom: 20px;
   padding:0px;
   background:#fe8b8e;

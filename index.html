@@ -82,7 +82,9 @@
         <h3>Hello, my name is</h3>
         <h1>Shawanda Brooks</h1>
         <h4>And I'm a <span id="type1"></span></h4>
-        <a href="mailto:girlsscodee@gmail.com?Subject=Job%20Opportunity" target="_top">Hire me</a>
+        <div class="btn">
+        <a href="#myForm">Hire me</a>
+        </div>
       </div>
 
       <!--<img class="banner" src="images/shawanda1.png" alt="image of me">-->
@@ -103,19 +105,19 @@
 
       <div class="about-center container">
         <div class="left" data-aos="fade-right" data-aos-duration="2000">
-         <!-- <img src="./images/profile1.jpg" alt="" /> -->
+         <img src="images/imageofme2.png" alt="image of me sitting on a red chair in a sunflower field with city view in background, under the sunset." />
         </div>
         <div class="right" data-aos="fade-left" data-aos-duration="2000">
           <h1>I Am Shawanda, a <span id="type2"></span></h1>
-          <p>
-            My name is Shawanda, but you can call me Sha! I was born and raised in Providence, RI. I am a creative and love all things design. I am lover of learning and someone who does a lot of self-studying.
-            <br>I spend my free-time researching, reading, and expanding my knowledge; trying to better understand the unknown. I am passionate about writing and the flexbility with having creative freedom. I enjoy spantoues adventures and love all things thriller!
+          <p>My name is Shawanda, but you can call me Sha! I was born and raised in Providence, RI. I am a creative and love all things design. I am lover of learning and someone who does a lot of self-studying.</p>
+
+          <p>I spend my free-time researching, reading, and expanding my knowledge; trying to better understand the unknown. I am passionate about writing and the flexbility with having creative freedom. I enjoy spontaneous adventures and love all things thriller!
           </p>
-          <p>
-            With the impact of COVID-19, the pandemic left me with plenty of spare time, I became driven to develop a new skill. I self-explored web development, and it sparked my interest so much; I became fascinated with the idea of learning this new fond language, I had to expand my knowledge. I attended an accelerated program with an emphasis on HTML, CSS, and Javascript, also touching on Bootstrap. My main interest is in front-end development and with more experience and my learning in the back-end, that is becoming of interest as well. 
+
+          <p> With the impact of COVID-19, the pandemic left me with plenty of spare time. I became overly driven to develop a new skill so I self-explored web development. I became fascinated with the idea of learning this new fond language- I had to expand my knowledge. I attended an accelerated program with an emphasis on HTML, CSS, and Javascript, also touching on Bootstrap. My main interest is in front-end development and with more experience and my learning in the back-end, that is becoming of interest as well. 
           </p>
-          <p>
-            My goal is to be upon the group of females that bridge the gender gap in tech! Girls Code!   
+
+          <p>My goal is to be upon the group of females that bridge the gender gap in tech! Girls Code!   
           </p>
           <a href="Shawandasresume.pdf" target="_blank" class="btn">Download Resume/CV</a>
         </div>
@@ -318,8 +320,11 @@
             </span>
           </div>
         </div>
+
+        
         <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
-          <div id="error"></div>
+          <div class="wrapper">
+          <div id="error_message"></div>
           
           <form id="myForm" onsubmit="return validation()">
             <div class="input_field">
@@ -335,14 +340,15 @@
               <input type="text" placeholder="email" id="email">
             </div>
             <div class="input_field">
-              <input type="text" placeholder="Message" id="message">
+              <textarea type="text" placeholder="Message" id="message"></textarea>
             </div>
             <div class="btn">
               <input type="submit">
 
           </form>
+        </div><!--wrapper div-->
         </div>
-      </div>
+      <!--</div>-->
     </section>
   
 
