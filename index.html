@@ -129,14 +129,40 @@
     <!-- Portfolio -->
     <section class="section theme" id="portfolio">
       <div class="title">
+        <h1>My Services</h1>
+      </div>
+
+      <div class="services-center container">
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <h3>Kay Maes Closet Dupes</h3>
+          <br>
+                  <p>
+                    Check out my blog. My FIRST site I have ever created. A blog where I find designer dupes on a budget.
+                  </p>
+          <br>
+                  <a href="http://kaymae.lovestoblog.com/?i=1" target="_blank" class="btn">View Site</a>
+        </div>
+
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+          <h3>Flipboard inspired site.</h3>
+          <br>
+                  <p>
+                    Take a look at this Bootstrap sample site, inspired by Flipboard.
+                  </p>
+          <br>
+                  <a href="http://shawandassamplesites.epizy.com" target="_blank" class="btn">View Site</a>
+        </div>
+      </div>
+    </section>
+      <!-- <div class="title">
         <h1>Portfolio</h1>
       </div>
 
       <div class="portfolio-center container">
         <div class="glide">
           <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide">
+            <ul class="service">
+              <li class="service" data-aos="fade-down" data-aos-duration="2000">
                 <div class="portfolio">
                   <h3>Kay Maes Closet Dupes</h3>
                   <p>
@@ -146,7 +172,7 @@
                 </div>
               </li>
 
-             <li class="glide__slide">
+             <li class="service" data-aos="fade-up" data-aos-duration="2000">
                 <div class="portfolio">
                   <h3>Flipboard inspired site.</h3>
                   <p>
@@ -156,17 +182,17 @@
                 </div>
               </li>
 
-              <li class="glide__slide">
+             <li class="glide__slide">
                 <div class="portfolio">
                   <h3>More inspirational sites coming soon!</h3>
                   <p>
                     Stay tuned for more, your site can be the next feature!
                   </p>
-                 <a href="" target="_blank" class="btn">View Site</a>-->
+                 <a href="" target="_blank" class="btn">View Site</a>
                 </div>
               </li>
 
-            <!--  <li class="glide__slide">
+            <li class="glide__slide">
                 <div class="portfolio">
                   <h3>Someone name</h3>
                   <p>
@@ -197,12 +223,12 @@
                   </p>
                   <a href="" target="_blank"class="btn">View Site</a>
                 </div>
-              </li> -->
+              </li> 
             </ul>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   
 
     <!-- Skills -->
@@ -330,21 +356,21 @@
           action="mailto:girlsscodee@gmail.com"
           method="POST"
           enctype="multipart/form-data"
-          name="EmailTestForm">
+          name="EmailForm">
             <div class="input_field">
               <input type="text" placeholder="Name" id="name">
             </div>
             <div class="input_field">
-              <input type="text" placeholder="subject" id="subject">
+              <input type="text" placeholder="subject" id="subject" name="subject">
             </div>
             <div class="input_field">
-              <input type="text" placeholder="Phone" id="phone">
+              <input type="text" placeholder="Phone" id="phone" name="phone">
             </div>
             <div class="input_field">
-              <input type="text" placeholder="email" id="email">
+              <input type="text" placeholder="email" id="email" name="email">
             </div>
             <div class="input_field">
-              <textarea type="text" placeholder="Message" id="message"></textarea>
+              <textarea type="text" placeholder="Message" id="message" name="message"></textarea>
             </div>
             <div class="btn">
               <input type="submit">

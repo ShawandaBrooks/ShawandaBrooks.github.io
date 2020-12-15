@@ -109,7 +109,7 @@ gsap.from(".icons span", {
   stagger: 0.2,
 });
 
-const glide = document.querySelector(".glide");
+/*const glide = document.querySelector(".glide");
 if (glide)
   new Glide(glide, {
     type: "carousel",
@@ -128,7 +128,7 @@ if (glide)
         perView: 1,
       },
     },
-  }).mount();
+  }).mount();*/
 
 /*conatct form validation*/
 function validation(){
