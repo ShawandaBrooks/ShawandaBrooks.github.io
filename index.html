@@ -105,7 +105,8 @@
 
       <div class="about-center container">
         <div class="left" data-aos="fade-right" data-aos-duration="2000">
-         <img src="images/imageofme2.png" alt="image of me sitting on a red chair in a sunflower field with city view in background, under the sunset." />
+        <!-- <img src="images/imageofme2.png" alt="image of me sitting on a red chair in a sunflower field with city view in background, under the sunset." /> -->
+        <img src="images/imageofme2-4.jpg" alt="image of me sitting on a red chair in a sunflower field with city view in background, under the sunset." />
         </div>
         <div class="right" data-aos="fade-left" data-aos-duration="2000">
           <h1>I Am Shawanda, a <span id="type2"></span></h1>
@@ -294,7 +295,7 @@
         <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
           <h2>Get in Touch</h2>
           <p>
-          Would you like to collabarote on your next project? Need help with your logo or establishing your brand? Have any questions? Don't be shy! Reach out to me!
+          Would you like to collaborate on your next project? Need help with your logo or establishing your brand? Have any questions? Don't be shy! Reach out to me!
           </p>
           <div>
             <span class="icon"><i class="fas fa-user"></i></span>
@@ -326,7 +327,12 @@
           <div class="wrapper">
           <div id="error_message"></div>
           
-          <form id="myForm" onsubmit="return validation()">
+          <form id="myForm"
+          onsubmit="return validation()"
+          action="mailto:girlsscodee@gmail.com"
+          method="POST"
+          enctype="multipart/form-data"
+          name="EmailTestForm">
             <div class="input_field">
               <input type="text" placeholder="Name" id="name">
             </div>
