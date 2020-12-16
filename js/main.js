@@ -172,7 +172,7 @@ function validation(){
     return false;
   }
 
-  alert("Form submitted successfully!")
+  alert("A separate window will open and you will be redirected to your email, please submit form from there!")
   return true;
 
 }
